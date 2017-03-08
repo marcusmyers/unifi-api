@@ -1,0 +1,21 @@
+{
+  "name": "marcusmyers/unifi-api",
+  "description": "Unifi API package to work with a Unifi Controller",
+  "license": "MIT",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Mark Myers",
+      "email": "marcusmyers@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.6",
+    "guzzlehttp/guzzle": "^6.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Unifi\\": "src/"
+    }
+  }
+}
